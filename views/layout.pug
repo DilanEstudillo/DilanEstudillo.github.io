@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        include partials/header
+        script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js")
+        script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js")
+        script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js")
+        script(src="/js/fireBase.js")
+    body(onload="observer()")
+        header.barra
+            h1 WolleKen-- 
+            <button class="BottonSend" onclick="closes()">Cerrar Sesion</button>
+            
+
+        main.contenedor
+            aside.contenedor-proyectos
+                .panel.crear-proyecto
+                    a(href="/nuevo-proyecto" class="boton") Nuevo Proyecto
+                        span +
+                .panel.lista-proyectos
+                    h2 Proyectos
+                    ul#proyectos.proyectos
+                        li
+                            a(href="#") Diseño de Tienda Virtual
+                        li
+                            a(href="#") Diseño de  Nuevo Blog
+                        li
+                            a(href="#") Diseño de diseño de logo
+            block contenido            
+
+            

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        include partials/header
+    script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js")
+    script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js")
+    script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js")
+    script(src="/js/fireBase.js")
+    <body class="home">
+
+    <section class="content">
+        <h1 class="hSign">Sign Up</h1>
+        <span class="SpanMessage">Place the required information:</span>
+        <input class="EmailSign" type="email" id="email" placeholder="Email" autofocus required />
+        <input class="PasswordSign" type="password" id="password" placeholder=" password" autofocus required />
+        <input class="Password2Sign" type="password" id="passwordA" placeholder=" password again" autofocus required />
+        <button class="BottonSend" onclick="register()">Send</button>
+        a(href="/iniciar-sesion") Back to the login page.
+    </section>
+    <footer class="row right middle footerX">
+        <figure class="logo">
+            <img class="logo-W" src="dominio.png" alt="">
+        </figure>
+        <h3 class="footerText">Wolleken</h3>
+    </footer>
+</body>

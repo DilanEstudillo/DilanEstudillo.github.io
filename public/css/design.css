@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.middle {
+    align-items: center;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.home {
+    background-image: linear-gradient(90deg, #1D406D, #3F67A9);
+    background-attachment: fixed;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.content {
+    text-align: center;
+    margin: 8rem 0 4rem 0;
+}
+
+.hLogin {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.WollekenMe {
+    color: #F5A623;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin:  1rem 0;
+}
+
+
+.SpanMessage {
+    display: block;
+    font-weight: 30px;
+    text-align: center;
+    font-weight: 200;
+    color: #fff;
+}
+
+.EmailInp {
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: .5rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 2rem 0 2rem 0;
+}
+.PasswordInp {
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: .5rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 2rem 0 2rem 0;
+}
+
+.BottonLogin {
+    text-decoration: none;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: block;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.BottonLogin:hover {
+    background-color: #2586d7;
+    
+}
+
+.BottonSign {
+    text-decoration: none;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .25);
+    display: block;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-top:20px ;
+}
+.BottonSign:hover {
+    background-color: #2586d7;
+    
+}
+.BottonReset2{
+    text-decoration: none;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .25);
+    display: block;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-left: auto;
+    left: 20px;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-top:20px ; 
+}
+.BottonReset2:hover{
+    background-color: #2586d7;
+    margin-top: -2;
+    padding-bottom: 12px;
+}
+.logo {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+}
+
+.logo-W {
+    height: 25px;
+    width: 25px;
+}
+
+.footerX {
+    padding: 0 4rem;
+}
+
+.footerText {
+    margin-left: .25rem;
+    color: #fff;
+}
+
+/*Sign Up*/
+content {
+    text-align: center;
+    margin: 8rem 0 4rem 0;
+}
+
+.hSign {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+.SpanMessage {
+    display: block;
+    font-weight: 30px;
+    text-align: center;
+    font-weight: 200;
+    color: #fff;
+}
+
+.EmailSign {
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: .5rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 2rem 0 2rem 0;
+
+}
+.PasswordSign {
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: .5rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 2rem 0 2rem 0;
+}
+.Password2Sign {
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: .5rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 2rem 0 2rem 0;
+}
+
+.BottonSend {
+    text-decoration: none;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: block;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.BottonSend:hover {
+    background-color: #2586d7;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+
+}
+.BottonBack {
+    text-decoration: none;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: block;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin:auto;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.BottonBack:hover {
+    background-color: #2586d7;
+    
+}
+.logo {
+    height: 25px;
+    width: 25px;
+    margin: 0;
+}
+
+.logo-W {
+    height: 25px;
+    width: 25px;
+}
+
+.footerX {
+    padding: 0 4rem;
+}
+
+.footerText {
+    margin-left: .25rem;
+    color: #fff;
+}
+
+/*indexVerif*/
+
+.ButtonVe{
+    text-decoration: none;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: block;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 300px;
+}
+
+.footerTextV {
+    margin-left: .25rem;
+    color: #fff;
+}
+ /*reset password*/
+
+ .hReset{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+ }
+
+ .EmailReset{
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: .5rem;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 2rem 0 2rem 0;
+ }
+ .BottonReset{
+    text-decoration: none;
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: block;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+ }
+ .BottonReset:hover {
+    background-color: #2586d7;
+    margin-top: -2;
+    padding-bottom: 12px;
+    
+}

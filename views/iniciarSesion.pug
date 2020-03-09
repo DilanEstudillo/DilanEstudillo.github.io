@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+    include partials/header
+    script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-app.js")
+    script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-auth.js")
+    script(src="https://www.gstatic.com/firebasejs/7.10.0/firebase-analytics.js")
+    script(src="/js/fireBase.js")
+    <body class="home">
+     <section class="content">
+        <h1 class="hLogin">Login</h1>
+        <span class="SpanMessage">Enter your email and password:</span>
+        <input class="EmailInp" type="email" id="emailL" placeholder="Email" autofocus required />
+        <input class="PasswordInp" type="password" id="passwordL" placeholder=" password" autofocus required />
+        <button class="BottonLogin" id="Login" onclick="entry()"> Login </button>
+        a(href="/crear-cuenta") You still don't have an account? Create a free account
+        <input class="BottonReset2" type="button" value="Reset Password" onclick="location.href=`/reset-password`">
+
+    </section>
+    <footer class="row right middle footerX">
+        <figure class="logo">
+        </figure>
+        <h3 class="footerText">Wolleken</h3>
+    </footer>
+
+
+</body>
